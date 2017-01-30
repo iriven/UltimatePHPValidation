@@ -6,14 +6,14 @@
  * Time: 20:42
  */
 
-namespace Ressources\Systems\Libraries\Helpers\Validation\Rules;
+namespace UltimatePHPValidation\Rules;
 
 
-use Ressources\Systems\Libraries\Helpers\Validation\Core\ValidationInterface;
+use UltimatePHPValidation\Core\ValidationInterface;
 
 /**
  * Class Range
- * @package Ressources\Systems\Libraries\Helpers\Validation\Rules
+ * @package UltimatePHPValidation\Rules
  */
 class Range extends Comparison implements ValidationInterface
 {
