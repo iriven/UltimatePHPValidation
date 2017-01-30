@@ -6,15 +6,15 @@
  * Time: 11:37
  */
 
-namespace Ressources\Systems\Libraries\Helpers\Validation\Rules;
+namespace UltimatePHPValidation\Rules;
 
 
-use Ressources\Systems\Libraries\Helpers\Validation\Core\Regex;
-use Ressources\Systems\Libraries\Helpers\Validation\Core\ValidationInterface;
+use UltimatePHPValidation\Core\Regex;
+use UltimatePHPValidation\Core\ValidationInterface;
 
 /**
  * Class Price
- * @package Ressources\Systems\Libraries\Helpers\Validation\Rules
+ * @package UltimatePHPValidation\Rules
  */
 class Price extends Regex implements ValidationInterface
 {
