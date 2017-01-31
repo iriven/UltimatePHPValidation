@@ -40,7 +40,8 @@ Declaration des contraintes de validation:
 
 
 
-* Utilisation:
+Utilisation:
+==============
 
 
 	$validation = new IrivenPHPValidation($constraints,$_POST);
