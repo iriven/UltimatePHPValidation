@@ -5,8 +5,7 @@ The ultimate Form validation engine ever created for PHP.
 Declaration des contraintes de validation:
 ===========================================
 
-* forme compacte:
-++++++++++++++++
+*  ++++++ forme compacte  +++++++:
 
 - $constraints = [
 	'firstName'=>'required|name|ascii|length:3;32;true',
@@ -14,8 +13,7 @@ Declaration des contraintes de validation:
 	'birthdate'=>'required|date|birthdate|age:18;true'
 	]
 
-* forme etendue:
-++++++++++++++++
+* ++++++ forme etendue  +++++++:
 
 - $constraints = [
 	'MyfirstName'=>[
