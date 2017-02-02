@@ -13,9 +13,9 @@ Declaration des contraintes de validation:
 *  ++++++ forme compacte  +++++++:
 
 - $constraints = [
-	'firstName'=>'required|name|ascii|length:3;32;true',
+	'MyfirstName'=>'required|name|ascii|length:3;32;true',
 	'MyPassword'=>'required|password|Fieldsmatches:MyPasswordVerif|minlength:7;false|maxlength:64',
-	'birthdate'=>'required|date|birthdate|age:18;true'
+	'MyBirthdate'=>'required|date|birthdate|age:18;true'
 	]
 
 * ++++++ forme etendue  +++++++:
